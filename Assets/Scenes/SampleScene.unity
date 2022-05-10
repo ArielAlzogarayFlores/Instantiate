@@ -112,49 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &650788569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 650788571}
-  - component: {fileID: 650788570}
-  m_Layer: 0
-  m_Name: '[ShowMessageInControl]'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &650788570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650788569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db81e7d95f604d5419ac8f984fdce8c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &650788571
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650788569}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 272.47876, y: 164.81131, z: -171.37212}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &839786520
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,8 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0173701045763cd4093a710c15cd2a88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToClone: {fileID: 4563621259319083209, guid: 846e2c99c5184bc478c12dd0e8c2f4c3,
-    type: 3}
+  prefab: {fileID: 4563621259319083209, guid: 846e2c99c5184bc478c12dd0e8c2f4c3, type: 3}
+  clon: {fileID: 0}
 --- !u!4 &839786522
 Transform:
   m_ObjectHideFlags: 0
@@ -198,7 +155,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168860342
 GameObject:

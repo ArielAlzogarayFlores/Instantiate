@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class CloneObjects : MonoBehaviour
 {
-    int i = 1;
-    public GameObject objectToClone;
+    public GameObject prefab;
+    public GameObject clon;
+    public int cantCubos;
+    public int gradosRotacion;
 
     public void InstantiateObject()
     {
-        while (i < 4)
-        {
-            Instantiate(objectToClone);
-            i++;
-        }
 
-        i = 1;
+        for (int i = 0; i<cantCubos; i++)
+        {
+            clon = Instantiate(prefab);
+            clon.transform.Rotate(0, gradosRotacion * i, 0);
+            clon.transform.Translate(i, i, 0);
+
+            //Destroy(clon, .5f);
+        }
     }
 }
